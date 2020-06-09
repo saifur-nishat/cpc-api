@@ -11,6 +11,7 @@ Then run following commands to install all the dependencies
 ```bash
 docker build .
 docker-compose build
+docker-compose up
 ```
 
 ## API Endpoints
