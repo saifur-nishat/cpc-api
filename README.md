@@ -11,6 +11,8 @@ Then run following commands to install all the dependencies
 ```bash
 docker build .
 docker-compose build
+docker-compose run --rm api sh -c "python manage.py makemigrations
+docker-compose run --rm api sh -c "python manage.py migrate"
 ```
 Then run the following command to run in browser using address http://127.0.0.1:8000
 ```bash
