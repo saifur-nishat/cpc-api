@@ -11,9 +11,11 @@ Then run following commands to install all the dependencies
 ```bash
 docker build .
 docker-compose build
+```
+Then run the following command to run in browser using address http://127.0.0.1:8000
+```bash
 docker-compose up
 ```
-
 ## API Endpoints
 ## USER Endpoints
 
