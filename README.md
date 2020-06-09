@@ -55,7 +55,7 @@ For updating user information user must be authenticated and use following endpo
 Then send a request using PUT/PATCH method in following format
 ```JSON
 {
-    "token": "your authentication token"
+    "token": "your authentication token",
     "email": "updated email",
     "password": "updated password",
     "name": "updated name"
